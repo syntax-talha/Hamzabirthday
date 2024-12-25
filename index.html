@@ -248,7 +248,7 @@
 
     
   <div id="birthday-message">
-    <h1>🎉 Happy Birthday Mary Bhai! 🎉</h1>
+    <h1>🎉 Happy Birthday Hamza! 🎉</h1>
   </div>
  
   <div class="gallery" id="gallery">
@@ -267,19 +267,11 @@
 </div>
 <div id="wishText" style="display: none;">
     <div class="wish-cards-container">
-      <div class="wish-card" id="friend-card">
-        <img src="1.jpeg" alt="Friend" class="card-image">
-        <div class="card-text">
-          <h3>Happy Birthday, Mary Bhai!</h3>
-          <p>From your friend, wishing you all the happiness and joy on your special day!</p>
-          <div class="from">From Father</div> <!-- Added text here -->
-
-        </div>
-      </div>
+      
       <div class="wish-card" id="mother-card">
         <img src="2.jpeg" alt="Mother" class="card-image">
         <div class="card-text">
-          <h3>Happy Birthday, My Dear!</h3>
+          <h3>Happy Birthday, Hamza!</h3>
           <p>From your mother, may your year be filled with love, blessings, and success!</p>
           <div class="from">From Mother</div> <!-- Added text here -->
         </div>
@@ -289,7 +281,7 @@
       <div class="wish-card" id="father-card">
         <img src="3.jpeg" alt="Father" class="card-image">
         <div class="card-text">
-          <h3>Happy Birthday, Mary Bhai!</h3>
+          <h3>Happy Birthday, Hamza!</h3>
           <p>From your father, may you always be surrounded by happiness and health!</p>
           <div class="from">From Brother</div> <!-- Added text here -->
 
@@ -320,12 +312,12 @@
   <div id="fireworks-container" class="fireworks"></div>
   <script>
    const currentDate = new Date();
-    const targetDate = new Date();
-    targetDate.setHours(24, 0, 0, 0); // Set to midnight (next day)
-    let countdownInterval;
+    // const targetDate = new Date();
+    // targetDate.setHours(24, 0, 0, 0); // Set to midnight (next day)
+    // let countdownInterval;
 
-// const targetDate = new Date(new Date().getTime() + 1000); // Current time + 5 seconds
-//     let countdownInterval;
+const targetDate = new Date(new Date().getTime() + 1000); // Current time + 5 seconds
+    let countdownInterval;
 
     function updateCountdown() {
       const now = new Date();
