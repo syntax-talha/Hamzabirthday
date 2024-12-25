@@ -158,20 +158,23 @@
 }
 
 #birthday-message {
-    position: fixed;
-    bottom: 50%; /* Center vertically */
-     /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust position to center the element */
-    z-index: 2;
-    display: none;
-    text-align: center;
-    padding: 20px;
-    background: rgba(91, 88, 88, 0.2);
-    border-radius: 10px;
-    font-size: 2rem;
-    color: white;
-    animation: fadeIn 2s ease-out forwards;
-}
+  position: fixed;
+    /* top: 50%; /* Center vertically */
+    /* left: 50%; Center horizontally */
+     /* transform: translate(-50%, -50%);   */
+
+    align-self: center;
+        display: none;
+        text-align: center;
+        z-index: 2;
+        padding: 20px;
+        background: rgba(91, 88, 88, 0.2);
+        border-radius: 10px;
+        font-size: 2rem;
+        color: white;
+        /* position: absolute; */
+        animation: fadeIn 2s ease-out forwards;
+      }
 
       @keyframes fadeIn {
         0% {
